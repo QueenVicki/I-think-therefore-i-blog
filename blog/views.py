@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
-def index(request):
-        return HttpResponse ("Hello, Blog!")
 
-def about(request):
-        return render(request,"blog/my-blog.html")
+# Create your views here.
+
+
+def my_blog(request):
+    return HttpResponse("Hello, Blog!")
